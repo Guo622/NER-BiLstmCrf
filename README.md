@@ -1,6 +1,7 @@
 # NER-BiLstmCrf
 
 基于BiLstm+Crf 的命名实体识别（FudanNLP/nlp-beginner tast4）
+<br> 数据集conll2003
 
 ## 原理解释
 
@@ -20,7 +21,7 @@ $$ \begin{aligned} \alpha_{i,j} &= log\Bigg[\sum_{y\in P^{i-1}}exp\bigg( \Psi\bi
 
   * https://github.com/visionshao/LSTM-CRF
   * https://github.com/Magiccircuit/FudanNLP_Begginer
-  * https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html#bi-lstm-conditional-random-field-discussion (pytorch 官方代码，不支持 batch)
+  * https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html#bi-lstm-conditional-random-field-discussion (pytorch 官方代码，不支持 batch操作)
 
 
 
