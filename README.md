@@ -2,6 +2,14 @@
 
 数据集：CONLL 2003，https://www.clips.uantwerpen.be/conll2003/ner/
 
+## 运行
+
+```shell
+pip install -r requirements.txt
+python train.py
+python inference.py
+```
+
 ## 原理解释
 
 + https://zhuanlan.zhihu.com/p/97676647
