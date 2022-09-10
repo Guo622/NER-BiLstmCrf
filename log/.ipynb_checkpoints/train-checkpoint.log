@@ -1,0 +1,480 @@
+2022-09-09 19:59:33,941-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.0002, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 256, 'val_batch_size': 1024, 'test_batch_size': 1024, 'max_epochs': 15, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 20:01:15,670-Using the latest cached version of the module from /root/.cache/huggingface/modules/datasets_modules/datasets/conll2003/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98 (last modified on Thu Sep  8 17:00:42 2022) since it couldn't be found locally at conll2003., or remotely on the Hugging Face Hub.
+2022-09-09 20:01:15,735-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 21:54:16,795-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.0002, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 256, 'val_batch_size': 1024, 'test_batch_size': 1024, 'max_epochs': 15, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 21:55:59,771-Using the latest cached version of the module from /root/.cache/huggingface/modules/datasets_modules/datasets/conll2003/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98 (last modified on Thu Sep  8 17:00:42 2022) since it couldn't be found locally at conll2003., or remotely on the Hugging Face Hub.
+2022-09-09 21:55:59,843-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 21:56:00,974-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 21:56:01,130-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 21:56:01,290-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 21:57:06,426-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.0002, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 256, 'val_batch_size': 1024, 'test_batch_size': 1024, 'max_epochs': 15, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 21:59:05,845-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 21:59:06,926-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 21:59:07,089-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 21:59:07,254-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:04:31,633-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.0002, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 256, 'val_batch_size': 1024, 'test_batch_size': 1024, 'max_epochs': 15, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:04:35,954-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:04:36,993-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:04:37,157-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:04:37,305-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:06:12,403-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:06:15,973-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:06:17,059-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:06:17,222-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:06:17,379-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:06:49,396-Epoch 0 step 20 eta 01:55:35: loss -273.076
+2022-09-09 22:09:28,833-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:12:51,351-Using the latest cached version of the module from /root/.cache/huggingface/modules/datasets_modules/datasets/conll2003/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98 (last modified on Thu Sep  8 17:00:42 2022) since it couldn't be found locally at conll2003., or remotely on the Hugging Face Hub.
+2022-09-09 22:12:51,409-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:12:52,456-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:12:52,620-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:12:52,816-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:14:12,665-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:14:15,622-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:14:16,615-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:14:16,764-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:14:16,913-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:14:51,419-Epoch 0 step 20 eta 02:04:40: loss -275.053
+2022-09-09 22:24:00,468-Args: {'seed': 42, 'device': 'cpu', 'vocab_path': './vocab/vocab.txt', 'log_path': './log/', 'save_path': './save/', 'cache_dir': './cache/', 'min_freq': 10, 'sentence1_max_len': 20, 'sentence2_max_len': 12, 'vocab_size': 12406, 'pad_token_id': 0, 'num_classes': 3, 'weight_decay': 0.01, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'warmup_ratio': 0.05, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'max_position_embeddings': 25, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:24:03,288-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:24:04,370-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:24:04,534-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:24:04,705-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:24:43,524-Epoch 0 step 20 eta 02:20:18: loss 237.301
+2022-09-09 22:25:23,094-Epoch 0 step 40 eta 02:21:33: loss 164.623
+2022-09-09 22:26:03,802-Epoch 0 step 60 eta 02:22:53: loss 163.014
+2022-09-09 22:26:43,704-Epoch 0 step 80 eta 02:22:30: loss 141.256
+2022-09-09 22:27:24,204-Epoch 0 step 100 eta 02:22:25: loss 72.105
+2022-09-09 22:28:02,403-Epoch 0 step 120 eta 02:20:47: loss 54.400
+2022-09-09 22:28:42,618-Epoch 0 step 140 eta 02:20:27: loss 54.861
+2022-09-09 22:29:22,694-Epoch 0 step 160 eta 02:19:59: loss 47.123
+2022-09-09 22:30:00,039-Epoch 0 step 180 eta 02:18:24: loss 36.861
+2022-09-09 22:30:36,695-Epoch 0 step 200 eta 02:16:46: loss 48.820
+2022-09-09 22:31:20,725-Epoch 0 step 220 eta 02:17:39: loss 47.709
+2022-09-09 22:32:03,695-Epoch 0 step 240 eta 02:17:57: loss 43.135
+2022-09-09 22:32:43,416-Epoch 0 step 260 eta 02:17:14: loss 52.518
+2022-09-09 22:33:27,510-Epoch 0 step 280 eta 02:17:36: loss 65.850
+2022-09-09 22:34:07,600-Epoch 0 step 300 eta 02:16:55: loss 46.428
+2022-09-09 22:34:48,405-Epoch 0 step 320 eta 02:16:23: loss 38.234
+2022-09-09 22:35:24,908-Epoch 0 step 340 eta 02:14:58: loss 48.322
+2022-09-09 22:36:02,394-Epoch 0 step 360 eta 02:13:50: loss 71.902
+2022-09-09 22:38:23,776-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:38:52,520-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:40:34,750-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:40:35,811-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:40:35,977-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:40:36,162-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:40:46,634-Epoch 0 step 20 eta 00:24:45: loss 327.234
+2022-09-09 22:40:53,497-Epoch 0 step 40 eta 00:24:45: loss 244.484
+2022-09-09 22:41:00,080-Epoch 0 step 60 eta 00:24:20: loss 235.410
+2022-09-09 22:41:06,154-Epoch 0 step 80 eta 00:23:37: loss 208.416
+2022-09-09 22:41:12,655-Epoch 0 step 100 eta 00:23:27: loss 127.879
+2022-09-09 22:41:19,145-Epoch 0 step 120 eta 00:23:18: loss 109.387
+2022-09-09 22:41:25,986-Epoch 0 step 140 eta 00:23:20: loss 103.602
+2022-09-09 22:41:32,309-Epoch 0 step 160 eta 00:23:07: loss 92.047
+2022-09-09 22:41:39,046-Epoch 0 step 180 eta 00:23:04: loss 84.225
+2022-09-09 22:41:45,280-Epoch 0 step 200 eta 00:22:51: loss 71.348
+2022-09-09 22:41:52,135-Epoch 0 step 220 eta 00:22:50: loss 82.871
+2022-09-09 22:41:58,721-Epoch 0 step 240 eta 00:22:44: loss 68.848
+2022-09-09 22:42:05,347-Epoch 0 step 260 eta 00:22:38: loss 68.729
+2022-09-09 22:42:11,771-Epoch 0 step 280 eta 00:22:29: loss 84.715
+2022-09-09 22:42:18,061-Epoch 0 step 300 eta 00:22:19: loss 60.363
+2022-09-09 22:42:24,477-Epoch 0 step 320 eta 00:22:10: loss 54.855
+2022-09-09 22:42:30,971-Epoch 0 step 340 eta 00:22:03: loss 57.721
+2022-09-09 22:42:36,718-Epoch 0 step 360 eta 00:21:48: loss 87.818
+2022-09-09 22:42:43,177-Epoch 0 step 380 eta 00:21:41: loss 35.746
+2022-09-09 22:42:49,426-Epoch 0 step 400 eta 00:21:32: loss 77.357
+2022-09-09 22:42:55,818-Epoch 0 step 420 eta 00:21:25: loss 88.246
+2022-09-09 22:44:16,668-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:45:59,386-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:46:00,555-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:46:00,705-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:46:00,863-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:46:12,170-Epoch 0 step 20 eta 00:27:31: loss 327.234
+2022-09-09 22:46:19,795-Epoch 0 step 40 eta 00:27:31: loss 244.484
+2022-09-09 22:46:27,327-Epoch 0 step 60 eta 00:27:19: loss 235.410
+2022-09-09 22:46:34,705-Epoch 0 step 80 eta 00:27:01: loss 208.416
+2022-09-09 22:46:41,669-Epoch 0 step 100 eta 00:26:29: loss 127.879
+2022-09-09 22:46:48,414-Epoch 0 step 120 eta 00:25:58: loss 109.387
+2022-09-09 22:46:55,599-Epoch 0 step 140 eta 00:25:47: loss 103.602
+2022-09-09 22:47:02,766-Epoch 0 step 160 eta 00:25:37: loss 92.047
+2022-09-09 22:47:10,526-Epoch 0 step 180 eta 00:25:41: loss 84.225
+2022-09-09 22:47:17,205-Epoch 0 step 200 eta 00:25:20: loss 71.348
+2022-09-09 22:47:24,441-Epoch 0 step 220 eta 00:25:13: loss 82.871
+2022-09-09 22:47:31,231-Epoch 0 step 240 eta 00:24:57: loss 68.848
+2022-09-09 22:47:37,996-Epoch 0 step 260 eta 00:24:43: loss 68.729
+2022-09-09 22:47:44,583-Epoch 0 step 280 eta 00:24:27: loss 84.715
+2022-09-09 22:47:51,513-Epoch 0 step 300 eta 00:24:17: loss 60.363
+2022-09-09 22:47:58,603-Epoch 0 step 320 eta 00:24:09: loss 54.855
+2022-09-09 22:48:05,596-Epoch 0 step 340 eta 00:24:01: loss 57.721
+2022-09-09 22:48:12,280-Epoch 0 step 360 eta 00:23:49: loss 87.818
+2022-09-09 22:48:18,421-Epoch 0 step 380 eta 00:23:32: loss 35.746
+2022-09-09 22:48:24,885-Epoch 0 step 400 eta 00:23:19: loss 77.357
+2022-09-09 22:48:32,098-Epoch 0 step 420 eta 00:23:14: loss 88.246
+2022-09-09 22:53:17,649-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 22:53:22,650-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 22:53:23,707-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 22:53:23,897-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 22:53:24,076-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 22:53:34,577-Epoch 0 step 20 eta 00:24:34: loss 327.234
+2022-09-09 22:53:42,035-Epoch 0 step 40 eta 00:25:44: loss 244.484
+2022-09-09 22:53:49,047-Epoch 0 step 60 eta 00:25:31: loss 235.410
+2022-09-09 22:53:56,490-Epoch 0 step 80 eta 00:25:44: loss 208.416
+2022-09-09 22:54:03,666-Epoch 0 step 100 eta 00:25:37: loss 127.879
+2022-09-09 22:54:09,982-Epoch 0 step 120 eta 00:24:59: loss 109.387
+2022-09-09 22:54:17,063-Epoch 0 step 140 eta 00:24:54: loss 103.602
+2022-09-09 22:54:23,965-Epoch 0 step 160 eta 00:24:44: loss 92.047
+2022-09-09 22:54:30,720-Epoch 0 step 180 eta 00:24:30: loss 84.225
+2022-09-09 22:54:36,838-Epoch 0 step 200 eta 00:24:05: loss 71.348
+2022-09-09 22:54:44,070-Epoch 0 step 220 eta 00:24:05: loss 82.871
+2022-09-09 22:54:51,384-Epoch 0 step 240 eta 00:24:04: loss 68.848
+2022-09-09 22:54:58,403-Epoch 0 step 260 eta 00:23:58: loss 68.729
+2022-09-09 22:55:05,393-Epoch 0 step 280 eta 00:23:52: loss 84.715
+2022-09-09 22:55:12,872-Epoch 0 step 300 eta 00:23:52: loss 60.363
+2022-09-09 22:55:20,458-Epoch 0 step 320 eta 00:23:52: loss 54.855
+2022-09-09 22:55:27,480-Epoch 0 step 340 eta 00:23:45: loss 57.721
+2022-09-09 22:55:34,147-Epoch 0 step 360 eta 00:23:34: loss 87.818
+2022-09-09 22:55:40,917-Epoch 0 step 380 eta 00:23:24: loss 35.746
+2022-09-09 22:55:47,478-Epoch 0 step 400 eta 00:23:13: loss 77.357
+2022-09-09 22:55:54,345-Epoch 0 step 420 eta 00:23:04: loss 88.246
+2022-09-09 23:03:21,638-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:03:27,083-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:03:28,215-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:03:28,361-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:03:28,511-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:03:51,280-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:03:55,960-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:03:57,063-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:03:57,228-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:03:57,381-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:05:35,937-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:05:38,944-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:05:40,014-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:05:40,200-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:05:40,381-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:11:41,649-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:13:24,521-Using the latest cached version of the module from /root/.cache/huggingface/modules/datasets_modules/datasets/conll2003/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98 (last modified on Thu Sep  8 17:00:42 2022) since it couldn't be found locally at conll2003., or remotely on the Hugging Face Hub.
+2022-09-09 23:13:24,590-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:13:25,666-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:13:25,871-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:13:26,059-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:14:41,616-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:16:27,597-Using the latest cached version of the module from /root/.cache/huggingface/modules/datasets_modules/datasets/conll2003/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98 (last modified on Thu Sep  8 17:00:42 2022) since it couldn't be found locally at conll2003., or remotely on the Hugging Face Hub.
+2022-09-09 23:16:27,650-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:16:28,848-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:16:29,001-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:16:29,175-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:16:41,370-Epoch 0 step 20 eta 00:29:34: loss 327.234
+2022-09-09 23:16:49,416-Epoch 0 step 40 eta 00:29:18: loss 244.484
+2022-09-09 23:16:57,552-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:18:40,458-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:18:41,541-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:18:41,698-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:18:41,892-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:18:52,651-Epoch 0 step 20 eta 00:25:27: loss 327.234
+2022-09-09 23:19:00,001-Epoch 0 step 40 eta 00:25:59: loss 244.484
+2022-09-09 23:19:07,116-Epoch 0 step 60 eta 00:25:48: loss 235.410
+2022-09-09 23:19:13,867-Epoch 0 step 80 eta 00:25:19: loss 208.416
+2022-09-09 23:19:20,690-Epoch 0 step 100 eta 00:25:02: loss 127.879
+2022-09-09 23:19:27,643-Epoch 0 step 120 eta 00:24:53: loss 109.387
+2022-09-09 23:19:34,449-Epoch 0 step 140 eta 00:24:41: loss 103.602
+2022-09-09 23:19:41,491-Epoch 0 step 160 eta 00:24:35: loss 92.047
+2022-09-09 23:19:48,556-Epoch 0 step 180 eta 00:24:31: loss 84.225
+2022-09-09 23:19:55,130-Epoch 0 step 200 eta 00:24:15: loss 71.348
+2022-09-09 23:20:03,096-Epoch 0 step 220 eta 00:24:27: loss 82.871
+2022-09-09 23:20:10,303-Epoch 0 step 240 eta 00:24:23: loss 68.848
+2022-09-09 23:20:17,892-Epoch 0 step 260 eta 00:24:25: loss 68.729
+2022-09-09 23:20:24,536-Epoch 0 step 280 eta 00:24:11: loss 84.715
+2022-09-09 23:20:31,228-Epoch 0 step 300 eta 00:23:59: loss 60.363
+2022-09-09 23:20:38,455-Epoch 0 step 320 eta 00:23:54: loss 54.855
+2022-09-09 23:20:45,069-Epoch 0 step 340 eta 00:23:42: loss 57.721
+2022-09-09 23:20:52,306-Epoch 0 step 360 eta 00:23:37: loss 87.818
+2022-09-09 23:20:59,439-Epoch 0 step 380 eta 00:23:31: loss 35.746
+2022-09-09 23:21:05,936-Epoch 0 step 400 eta 00:23:19: loss 77.357
+2022-09-09 23:21:12,817-Epoch 0 step 420 eta 00:23:10: loss 88.246
+2022-09-09 23:30:06,732-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:30:11,593-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:30:12,625-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:30:12,777-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:30:12,939-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:30:24,013-Epoch 0 step 20 eta 00:26:16: loss 327.234
+2022-09-09 23:30:31,234-Epoch 0 step 40 eta 00:26:09: loss 244.484
+2022-09-09 23:30:38,375-Epoch 0 step 60 eta 00:25:57: loss 235.410
+2022-09-09 23:30:45,252-Epoch 0 step 80 eta 00:25:32: loss 208.416
+2022-09-09 23:30:52,486-Epoch 0 step 100 eta 00:25:31: loss 127.879
+2022-09-09 23:30:59,280-Epoch 0 step 120 eta 00:25:11: loss 109.387
+2022-09-09 23:31:06,205-Epoch 0 step 140 eta 00:24:59: loss 103.602
+2022-09-09 23:31:12,766-Epoch 0 step 160 eta 00:24:39: loss 92.047
+2022-09-09 23:31:20,275-Epoch 0 step 180 eta 00:24:44: loss 84.225
+2022-09-09 23:31:26,643-Epoch 0 step 200 eta 00:24:23: loss 71.348
+2022-09-09 23:31:34,192-Epoch 0 step 220 eta 00:24:26: loss 82.871
+2022-09-09 23:31:41,247-Epoch 0 step 240 eta 00:24:20: loss 68.848
+2022-09-09 23:31:48,292-Epoch 0 step 260 eta 00:24:13: loss 68.729
+2022-09-09 23:31:54,771-Epoch 0 step 280 eta 00:23:58: loss 84.715
+2022-09-09 23:32:01,424-Epoch 0 step 300 eta 00:23:46: loss 60.363
+2022-09-09 23:32:08,900-Epoch 0 step 320 eta 00:23:45: loss 54.855
+2022-09-09 23:32:15,490-Epoch 0 step 340 eta 00:23:33: loss 57.721
+2022-09-09 23:32:22,837-Epoch 0 step 360 eta 00:23:30: loss 87.818
+2022-09-09 23:32:29,789-Epoch 0 step 380 eta 00:23:23: loss 35.746
+2022-09-09 23:32:36,144-Epoch 0 step 400 eta 00:23:09: loss 77.357
+2022-09-09 23:32:42,689-Epoch 0 step 420 eta 00:22:59: loss 88.246
+2022-09-09 23:35:01,966-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:40:11,944-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:40:15,627-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:40:16,746-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:40:16,937-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:40:17,096-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-09 23:42:34,957-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-09 23:42:37,434-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-09 23:42:38,553-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-09 23:42:38,709-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-09 23:42:38,859-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-10 00:02:05,088-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-10 00:03:47,395-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-10 00:03:48,415-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-10 00:03:48,590-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-10 00:03:48,737-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-10 00:04:17,582-Args: {'seed': 42, 'device': 'cuda', 'log_dir': './log/', 'save_dir': './save/', 'cache_dir': './cache/', 'config_dir': './config/', 'vocab_size': None, 'weight_decay': 0.0, 'learning_rate': 0.01, 'min_lr': 1e-06, 'adam_epsilon': 1e-06, 'train_batch_size': 32, 'val_batch_size': 128, 'test_batch_size': 128, 'max_epochs': 10, 'print_steps': 20, 'embedding_size': 768, 'hidden_size': 384, 'dropout': 0.5, 'layer_norm_eps': 1e-05, 'checkpoint': None}
+2022-09-10 00:07:40,653-Reusing dataset conll2003 (./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98)
+2022-09-10 00:07:41,677-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-73b57ba560b8a2c4.arrow
+2022-09-10 00:07:41,831-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-e4dbbb6a36d88d51.arrow
+2022-09-10 00:07:41,983-Loading cached processed dataset at ./cache/conll2003/conll2003/1.0.0/9a4d16a94f8674ba3466315300359b0acd891b68b6c8743ddf60b9c702adce98/cache-792f3280388c7745.arrow
+2022-09-10 00:07:52,841-Epoch 0 step 20 eta 00:25:58: loss 327.234
+2022-09-10 00:08:00,902-Epoch 0 step 40 eta 00:27:32: loss 244.484
+2022-09-10 00:08:08,040-Epoch 0 step 60 eta 00:26:51: loss 235.410
+2022-09-10 00:08:14,862-Epoch 0 step 80 eta 00:26:10: loss 208.416
+2022-09-10 00:08:21,514-Epoch 0 step 100 eta 00:25:36: loss 127.879
+2022-09-10 00:08:27,867-Epoch 0 step 120 eta 00:25:00: loss 109.387
+2022-09-10 00:08:34,684-Epoch 0 step 140 eta 00:24:46: loss 103.602
+2022-09-10 00:08:41,798-Epoch 0 step 160 eta 00:24:42: loss 92.047
+2022-09-10 00:08:48,928-Epoch 0 step 180 eta 00:24:38: loss 84.225
+2022-09-10 00:08:55,547-Epoch 0 step 200 eta 00:24:23: loss 71.348
+2022-09-10 00:09:03,177-Epoch 0 step 220 eta 00:24:28: loss 82.871
+2022-09-10 00:09:10,477-Epoch 0 step 240 eta 00:24:25: loss 68.848
+2022-09-10 00:09:17,676-Epoch 0 step 260 eta 00:24:20: loss 68.729
+2022-09-10 00:09:24,955-Epoch 0 step 280 eta 00:24:16: loss 84.715
+2022-09-10 00:09:31,825-Epoch 0 step 300 eta 00:24:06: loss 60.363
+2022-09-10 00:09:38,829-Epoch 0 step 320 eta 00:23:58: loss 54.855
+2022-09-10 00:09:45,665-Epoch 0 step 340 eta 00:23:48: loss 57.721
+2022-09-10 00:09:52,905-Epoch 0 step 360 eta 00:23:43: loss 87.818
+2022-09-10 00:10:00,092-Epoch 0 step 380 eta 00:23:38: loss 35.746
+2022-09-10 00:10:06,480-Epoch 0 step 400 eta 00:23:24: loss 77.357
+2022-09-10 00:10:13,250-Epoch 0 step 420 eta 00:23:14: loss 88.246
+2022-09-10 00:10:24,094-Epoch 0 valid: accuracy 0.820, f1_micro 0.820, f1_macro 0.119
+
+2022-09-10 00:10:25,103-Epoch 1 step 440 eta 00:23:50: loss 26.082
+2022-09-10 00:10:33,024-Epoch 1 step 460 eta 00:23:49: loss 29.736
+2022-09-10 00:10:39,769-Epoch 1 step 480 eta 00:23:37: loss 24.510
+2022-09-10 00:10:47,009-Epoch 1 step 500 eta 00:23:30: loss 25.656
+2022-09-10 00:10:53,486-Epoch 1 step 520 eta 00:23:17: loss 27.887
+2022-09-10 00:11:00,572-Epoch 1 step 540 eta 00:23:09: loss 15.041
+2022-09-10 00:11:08,369-Epoch 1 step 560 eta 00:23:06: loss 14.633
+2022-09-10 00:11:15,778-Epoch 1 step 580 eta 00:22:59: loss 22.826
+2022-09-10 00:11:22,998-Epoch 1 step 600 eta 00:22:52: loss 7.893
+2022-09-10 00:11:29,887-Epoch 1 step 620 eta 00:22:43: loss 8.641
+2022-09-10 00:11:37,418-Epoch 1 step 640 eta 00:22:37: loss 15.533
+2022-09-10 00:11:44,503-Epoch 1 step 660 eta 00:22:29: loss 11.859
+2022-09-10 00:11:51,290-Epoch 1 step 680 eta 00:22:19: loss 24.471
+2022-09-10 00:11:58,238-Epoch 1 step 700 eta 00:22:11: loss 8.330
+2022-09-10 00:12:04,751-Epoch 1 step 720 eta 00:22:00: loss 14.041
+2022-09-10 00:12:11,723-Epoch 1 step 740 eta 00:21:52: loss 19.668
+2022-09-10 00:12:18,138-Epoch 1 step 760 eta 00:21:41: loss 17.615
+2022-09-10 00:12:25,497-Epoch 1 step 780 eta 00:21:34: loss 9.736
+2022-09-10 00:12:32,252-Epoch 1 step 800 eta 00:21:25: loss 21.111
+2022-09-10 00:12:39,316-Epoch 1 step 820 eta 00:21:18: loss 9.434
+2022-09-10 00:12:46,208-Epoch 1 step 840 eta 00:21:09: loss 12.465
+2022-09-10 00:12:52,869-Epoch 1 step 860 eta 00:21:00: loss 17.504
+2022-09-10 00:13:03,662-Epoch 1 valid: accuracy 0.819, f1_micro 0.819, f1_macro 0.126
+
+2022-09-10 00:13:04,680-Epoch 2 step 880 eta 00:21:12: loss 4.074
+2022-09-10 00:13:11,653-Epoch 2 step 900 eta 00:21:03: loss 5.820
+2022-09-10 00:13:18,889-Epoch 2 step 920 eta 00:20:56: loss 9.082
+2022-09-10 00:13:26,523-Epoch 2 step 940 eta 00:20:50: loss 8.248
+2022-09-10 00:13:33,615-Epoch 2 step 960 eta 00:20:43: loss 15.154
+2022-09-10 00:13:40,825-Epoch 2 step 980 eta 00:20:35: loss 11.811
+2022-09-10 00:13:47,949-Epoch 2 step 1000 eta 00:20:27: loss 11.109
+2022-09-10 00:13:55,100-Epoch 2 step 1020 eta 00:20:20: loss 2.748
+2022-09-10 00:14:02,178-Epoch 2 step 1040 eta 00:20:12: loss 10.787
+2022-09-10 00:14:09,635-Epoch 2 step 1060 eta 00:20:06: loss 9.594
+2022-09-10 00:14:17,118-Epoch 2 step 1080 eta 00:19:59: loss 2.354
+2022-09-10 00:14:23,997-Epoch 2 step 1100 eta 00:19:51: loss 14.826
+2022-09-10 00:14:31,034-Epoch 2 step 1120 eta 00:19:43: loss 3.584
+2022-09-10 00:14:37,715-Epoch 2 step 1140 eta 00:19:34: loss 2.369
+2022-09-10 00:14:45,326-Epoch 2 step 1160 eta 00:19:28: loss 3.713
+2022-09-10 00:14:52,381-Epoch 2 step 1180 eta 00:19:20: loss 8.047
+2022-09-10 00:14:59,591-Epoch 2 step 1200 eta 00:19:13: loss 7.635
+2022-09-10 00:15:06,404-Epoch 2 step 1220 eta 00:19:05: loss 13.326
+2022-09-10 00:15:13,276-Epoch 2 step 1240 eta 00:18:56: loss 7.047
+2022-09-10 00:15:19,802-Epoch 2 step 1260 eta 00:18:48: loss 3.146
+2022-09-10 00:15:26,688-Epoch 2 step 1280 eta 00:18:40: loss 3.908
+2022-09-10 00:15:33,960-Epoch 2 step 1300 eta 00:18:33: loss 6.641
+2022-09-10 00:15:44,401-Epoch 2 valid: accuracy 0.819, f1_micro 0.819, f1_macro 0.133
+
+2022-09-10 00:15:45,785-Epoch 3 step 1320 eta 00:18:36: loss 5.008
+2022-09-10 00:15:51,870-Epoch 3 step 1340 eta 00:18:26: loss 8.354
+2022-09-10 00:15:57,952-Epoch 3 step 1360 eta 00:18:16: loss 2.988
+2022-09-10 00:16:05,135-Epoch 3 step 1380 eta 00:18:09: loss 3.871
+2022-09-10 00:16:11,760-Epoch 3 step 1400 eta 00:18:00: loss 6.168
+2022-09-10 00:16:18,782-Epoch 3 step 1420 eta 00:17:53: loss 5.768
+2022-09-10 00:16:26,518-Epoch 3 step 1440 eta 00:17:46: loss 3.809
+2022-09-10 00:16:33,187-Epoch 3 step 1460 eta 00:17:38: loss 11.666
+2022-09-10 00:16:40,034-Epoch 3 step 1480 eta 00:17:30: loss 8.900
+2022-09-10 00:16:46,985-Epoch 3 step 1500 eta 00:17:22: loss 2.656
+2022-09-10 00:16:54,388-Epoch 3 step 1520 eta 00:17:15: loss 7.766
+2022-09-10 00:17:01,654-Epoch 3 step 1540 eta 00:17:08: loss 5.219
+2022-09-10 00:17:08,483-Epoch 3 step 1560 eta 00:17:00: loss 10.186
+2022-09-10 00:17:15,896-Epoch 3 step 1580 eta 00:16:54: loss 8.762
+2022-09-10 00:17:22,669-Epoch 3 step 1600 eta 00:16:46: loss 7.691
+2022-09-10 00:17:29,520-Epoch 3 step 1620 eta 00:16:38: loss 3.871
+2022-09-10 00:17:36,556-Epoch 3 step 1640 eta 00:16:30: loss 15.443
+2022-09-10 00:17:43,010-Epoch 3 step 1660 eta 00:16:22: loss 18.596
+2022-09-10 00:17:50,583-Epoch 3 step 1680 eta 00:16:15: loss 23.816
+2022-09-10 00:17:57,195-Epoch 3 step 1700 eta 00:16:07: loss 6.258
+2022-09-10 00:18:03,876-Epoch 3 step 1720 eta 00:15:59: loss 10.004
+2022-09-10 00:18:11,413-Epoch 3 step 1740 eta 00:15:52: loss 19.977
+2022-09-10 00:18:21,169-Epoch 3 valid: accuracy 0.815, f1_micro 0.815, f1_macro 0.132
+
+2022-09-10 00:18:23,128-Epoch 4 step 1760 eta 00:15:52: loss 3.449
+2022-09-10 00:18:29,990-Epoch 4 step 1780 eta 00:15:44: loss 0.949
+2022-09-10 00:18:37,902-Epoch 4 step 1800 eta 00:15:38: loss 2.049
+2022-09-10 00:18:44,917-Epoch 4 step 1820 eta 00:15:30: loss 10.842
+2022-09-10 00:18:51,900-Epoch 4 step 1840 eta 00:15:23: loss 8.322
+2022-09-10 00:18:58,954-Epoch 4 step 1860 eta 00:15:15: loss 21.990
+2022-09-10 00:19:05,864-Epoch 4 step 1880 eta 00:15:08: loss 6.098
+2022-09-10 00:19:13,179-Epoch 4 step 1900 eta 00:15:00: loss 4.652
+2022-09-10 00:19:19,657-Epoch 4 step 1920 eta 00:14:52: loss 3.648
+2022-09-10 00:19:26,446-Epoch 4 step 1940 eta 00:14:44: loss 11.035
+2022-09-10 00:19:32,632-Epoch 4 step 1960 eta 00:14:36: loss 12.475
+2022-09-10 00:19:39,248-Epoch 4 step 1980 eta 00:14:28: loss 5.514
+2022-09-10 00:19:46,411-Epoch 4 step 2000 eta 00:14:21: loss 10.041
+2022-09-10 00:19:52,965-Epoch 4 step 2020 eta 00:14:13: loss 3.271
+2022-09-10 00:19:59,858-Epoch 4 step 2040 eta 00:14:05: loss 7.908
+2022-09-10 00:20:06,905-Epoch 4 step 2060 eta 00:13:58: loss 7.717
+2022-09-10 00:20:14,271-Epoch 4 step 2080 eta 00:13:51: loss 8.553
+2022-09-10 00:20:21,136-Epoch 4 step 2100 eta 00:13:43: loss 5.711
+2022-09-10 00:20:28,911-Epoch 4 step 2120 eta 00:13:37: loss 8.547
+2022-09-10 00:20:35,635-Epoch 4 step 2140 eta 00:13:29: loss 5.260
+2022-09-10 00:20:42,258-Epoch 4 step 2160 eta 00:13:21: loss 17.447
+2022-09-10 00:20:49,287-Epoch 4 step 2180 eta 00:13:14: loss 19.949
+2022-09-10 00:20:58,955-Epoch 4 valid: accuracy 0.065, f1_micro 0.065, f1_macro 0.055
+
+2022-09-10 00:21:01,056-Epoch 5 step 2200 eta 00:13:11: loss 0.865
+2022-09-10 00:21:07,895-Epoch 5 step 2220 eta 00:13:04: loss 14.154
+2022-09-10 00:21:14,982-Epoch 5 step 2240 eta 00:12:56: loss 5.303
+2022-09-10 00:21:21,940-Epoch 5 step 2260 eta 00:12:49: loss 15.283
+2022-09-10 00:21:28,798-Epoch 5 step 2280 eta 00:12:41: loss 9.850
+2022-09-10 00:21:35,354-Epoch 5 step 2300 eta 00:12:33: loss 8.195
+2022-09-10 00:21:42,099-Epoch 5 step 2320 eta 00:12:26: loss 0.752
+2022-09-10 00:21:48,714-Epoch 5 step 2340 eta 00:12:18: loss 5.311
+2022-09-10 00:21:56,430-Epoch 5 step 2360 eta 00:12:11: loss 1.480
+2022-09-10 00:22:03,927-Epoch 5 step 2380 eta 00:12:04: loss 5.674
+2022-09-10 00:22:11,352-Epoch 5 step 2400 eta 00:11:57: loss 3.707
+2022-09-10 00:22:18,350-Epoch 5 step 2420 eta 00:11:50: loss 9.750
+2022-09-10 00:22:25,485-Epoch 5 step 2440 eta 00:11:43: loss 7.885
+2022-09-10 00:22:32,123-Epoch 5 step 2460 eta 00:11:35: loss 8.266
+2022-09-10 00:22:39,599-Epoch 5 step 2480 eta 00:11:28: loss 13.846
+2022-09-10 00:22:46,427-Epoch 5 step 2500 eta 00:11:20: loss 1.896
+2022-09-10 00:22:54,047-Epoch 5 step 2520 eta 00:11:14: loss 5.689
+2022-09-10 00:23:01,191-Epoch 5 step 2540 eta 00:11:06: loss 1.666
+2022-09-10 00:23:08,661-Epoch 5 step 2560 eta 00:10:59: loss 13.133
+2022-09-10 00:23:15,296-Epoch 5 step 2580 eta 00:10:52: loss 10.002
+2022-09-10 00:23:22,622-Epoch 5 step 2600 eta 00:10:45: loss 4.113
+2022-09-10 00:23:29,741-Epoch 5 step 2620 eta 00:10:37: loss 4.111
+2022-09-10 00:23:38,561-Epoch 5 valid: accuracy 0.065, f1_micro 0.065, f1_macro 0.051
+
+2022-09-10 00:23:41,272-Epoch 6 step 2640 eta 00:10:33: loss 10.559
+2022-09-10 00:23:47,943-Epoch 6 step 2660 eta 00:10:25: loss 1.906
+2022-09-10 00:23:54,956-Epoch 6 step 2680 eta 00:10:18: loss 0.967
+2022-09-10 00:24:02,247-Epoch 6 step 2700 eta 00:10:11: loss 3.092
+2022-09-10 00:24:09,416-Epoch 6 step 2720 eta 00:10:03: loss 0.533
+2022-09-10 00:24:16,549-Epoch 6 step 2740 eta 00:09:56: loss 9.648
+2022-09-10 00:24:23,652-Epoch 6 step 2760 eta 00:09:49: loss 6.021
+2022-09-10 00:24:31,189-Epoch 6 step 2780 eta 00:09:42: loss 5.867
+2022-09-10 00:24:38,060-Epoch 6 step 2800 eta 00:09:34: loss 2.867
+2022-09-10 00:24:45,172-Epoch 6 step 2820 eta 00:09:27: loss 2.701
+2022-09-10 00:24:52,297-Epoch 6 step 2840 eta 00:09:20: loss 0.697
+2022-09-10 00:24:59,000-Epoch 6 step 2860 eta 00:09:12: loss 8.188
+2022-09-10 00:25:05,792-Epoch 6 step 2880 eta 00:09:05: loss 4.260
+2022-09-10 00:25:12,731-Epoch 6 step 2900 eta 00:08:57: loss 0.492
+2022-09-10 00:25:19,277-Epoch 6 step 2920 eta 00:08:50: loss 0.635
+2022-09-10 00:25:25,973-Epoch 6 step 2940 eta 00:08:42: loss 2.361
+2022-09-10 00:25:33,393-Epoch 6 step 2960 eta 00:08:35: loss 1.416
+2022-09-10 00:25:40,784-Epoch 6 step 2980 eta 00:08:28: loss 5.934
+2022-09-10 00:25:47,334-Epoch 6 step 3000 eta 00:08:21: loss 1.711
+2022-09-10 00:25:54,797-Epoch 6 step 3020 eta 00:08:14: loss 3.408
+2022-09-10 00:26:01,490-Epoch 6 step 3040 eta 00:08:06: loss 1.602
+2022-09-10 00:26:08,501-Epoch 6 step 3060 eta 00:07:59: loss 6.232
+2022-09-10 00:26:18,339-Epoch 6 valid: accuracy 0.065, f1_micro 0.065, f1_macro 0.063
+
+2022-09-10 00:26:21,114-Epoch 7 step 3080 eta 00:07:54: loss 0.219
+2022-09-10 00:26:28,693-Epoch 7 step 3100 eta 00:07:47: loss 3.418
+2022-09-10 00:26:35,418-Epoch 7 step 3120 eta 00:07:39: loss 6.125
+2022-09-10 00:26:42,160-Epoch 7 step 3140 eta 00:07:32: loss 3.004
+2022-09-10 00:26:49,059-Epoch 7 step 3160 eta 00:07:25: loss 0.254
+2022-09-10 00:26:55,338-Epoch 7 step 3180 eta 00:07:17: loss 0.607
+2022-09-10 00:27:01,669-Epoch 7 step 3200 eta 00:07:09: loss 1.443
+2022-09-10 00:27:08,657-Epoch 7 step 3220 eta 00:07:02: loss 3.488
+2022-09-10 00:27:15,744-Epoch 7 step 3240 eta 00:06:55: loss 0.424
+2022-09-10 00:27:22,424-Epoch 7 step 3260 eta 00:06:47: loss 0.564
+2022-09-10 00:27:28,643-Epoch 7 step 3280 eta 00:06:40: loss 4.301
+2022-09-10 00:27:35,029-Epoch 7 step 3300 eta 00:06:32: loss 0.553
+2022-09-10 00:27:42,262-Epoch 7 step 3320 eta 00:06:25: loss 0.959
+2022-09-10 00:27:48,310-Epoch 7 step 3340 eta 00:06:18: loss 1.170
+2022-09-10 00:27:54,578-Epoch 7 step 3360 eta 00:06:10: loss 1.139
+2022-09-10 00:28:00,581-Epoch 7 step 3380 eta 00:06:03: loss 0.322
+2022-09-10 00:28:06,525-Epoch 7 step 3400 eta 00:05:55: loss 3.580
+2022-09-10 00:28:12,660-Epoch 7 step 3420 eta 00:05:47: loss 1.719
+2022-09-10 00:28:18,596-Epoch 7 step 3440 eta 00:05:40: loss 10.637
+2022-09-10 00:28:25,040-Epoch 7 step 3460 eta 00:05:33: loss 0.820
+2022-09-10 00:28:31,234-Epoch 7 step 3480 eta 00:05:25: loss 2.387
+2022-09-10 00:28:36,946-Epoch 7 step 3500 eta 00:05:18: loss 3.100
+2022-09-10 00:28:44,921-Epoch 7 valid: accuracy 0.065, f1_micro 0.065, f1_macro 0.052
+
+2022-09-10 00:28:47,718-Epoch 8 step 3520 eta 00:05:11: loss 3.666
+2022-09-10 00:28:53,526-Epoch 8 step 3540 eta 00:05:04: loss 1.395
+2022-09-10 00:28:59,851-Epoch 8 step 3560 eta 00:04:57: loss 0.152
+2022-09-10 00:29:06,186-Epoch 8 step 3580 eta 00:04:49: loss 0.941
+2022-09-10 00:29:14,032-Epoch 8 step 3600 eta 00:04:42: loss 1.316
+2022-09-10 00:29:20,329-Epoch 8 step 3620 eta 00:04:35: loss 11.189
+2022-09-10 00:29:26,345-Epoch 8 step 3640 eta 00:04:27: loss 1.105
+2022-09-10 00:29:32,111-Epoch 8 step 3660 eta 00:04:20: loss 3.000
+2022-09-10 00:29:38,377-Epoch 8 step 3680 eta 00:04:13: loss 2.207
+2022-09-10 00:29:44,618-Epoch 8 step 3700 eta 00:04:05: loss 0.320
+2022-09-10 00:29:50,600-Epoch 8 step 3720 eta 00:03:58: loss 1.156
+2022-09-10 00:29:56,542-Epoch 8 step 3740 eta 00:03:51: loss 3.602
+2022-09-10 00:30:02,598-Epoch 8 step 3760 eta 00:03:43: loss 10.355
+2022-09-10 00:30:08,823-Epoch 8 step 3780 eta 00:03:36: loss 2.123
+2022-09-10 00:30:15,233-Epoch 8 step 3800 eta 00:03:29: loss 0.619
+2022-09-10 00:30:21,445-Epoch 8 step 3820 eta 00:03:22: loss 1.203
+2022-09-10 00:30:27,767-Epoch 8 step 3840 eta 00:03:15: loss 8.537
+2022-09-10 00:30:33,335-Epoch 8 step 3860 eta 00:03:07: loss 4.057
+2022-09-10 00:30:39,621-Epoch 8 step 3880 eta 00:03:00: loss 0.904
+2022-09-10 00:30:46,092-Epoch 8 step 3900 eta 00:02:53: loss 0.381
+2022-09-10 00:30:52,082-Epoch 8 step 3920 eta 00:02:46: loss 1.242
+2022-09-10 00:30:58,244-Epoch 8 step 3940 eta 00:02:39: loss 0.328
+2022-09-10 00:31:05,857-Epoch 8 valid: accuracy 0.065, f1_micro 0.065, f1_macro 0.049
+
+2022-09-10 00:31:08,967-Epoch 9 step 3960 eta 00:02:32: loss 0.217
+2022-09-10 00:31:15,471-Epoch 9 step 3980 eta 00:02:25: loss 1.516
+2022-09-10 00:31:21,615-Epoch 9 step 4000 eta 00:02:18: loss 0.801
+2022-09-10 00:31:27,732-Epoch 9 step 4020 eta 00:02:10: loss 1.045
+2022-09-10 00:31:33,538-Epoch 9 step 4040 eta 00:02:03: loss 0.172
+2022-09-10 00:31:39,544-Epoch 9 step 4060 eta 00:01:56: loss 2.740
+2022-09-10 00:31:45,661-Epoch 9 step 4080 eta 00:01:49: loss 9.221
+2022-09-10 00:31:51,348-Epoch 9 step 4100 eta 00:01:42: loss 3.393
+2022-09-10 00:31:57,343-Epoch 9 step 4120 eta 00:01:35: loss 1.199
+2022-09-10 00:32:03,035-Epoch 9 step 4140 eta 00:01:28: loss 0.381
+2022-09-10 00:32:09,201-Epoch 9 step 4160 eta 00:01:20: loss 1.049
+2022-09-10 00:32:15,297-Epoch 9 step 4180 eta 00:01:13: loss 0.367
+2022-09-10 00:32:21,236-Epoch 9 step 4200 eta 00:01:06: loss 0.963
+2022-09-10 00:32:27,561-Epoch 9 step 4220 eta 00:00:59: loss 7.754
+2022-09-10 00:32:33,846-Epoch 9 step 4240 eta 00:00:52: loss 0.438
+2022-09-10 00:32:39,959-Epoch 9 step 4260 eta 00:00:45: loss 1.789
+2022-09-10 00:32:45,782-Epoch 9 step 4280 eta 00:00:38: loss 2.439
+2022-09-10 00:32:51,546-Epoch 9 step 4300 eta 00:00:31: loss 0.430
+2022-09-10 00:32:57,813-Epoch 9 step 4320 eta 00:00:24: loss 0.748
+2022-09-10 00:33:03,759-Epoch 9 step 4340 eta 00:00:17: loss 10.979
+2022-09-10 00:33:10,053-Epoch 9 step 4360 eta 00:00:10: loss 0.453
+2022-09-10 00:33:16,244-Epoch 9 step 4380 eta 00:00:03: loss 1.352
+2022-09-10 00:33:23,541-Epoch 9 valid: accuracy 0.065, f1_micro 0.065, f1_macro 0.053
+

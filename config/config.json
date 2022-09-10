@@ -1,0 +1,23 @@
+{
+    "seed": 42,
+    "device": "cuda",
+    "log_dir": "./log/",
+    "save_dir": "./save/",
+    "cache_dir": "./cache/",
+    "config_dir": "./config/",
+    "vocab_size": 30291,
+    "weight_decay": 0.0,
+    "learning_rate": 0.01,
+    "min_lr": 1e-06,
+    "adam_epsilon": 1e-08,
+    "train_batch_size": 32,
+    "val_batch_size": 128,
+    "test_batch_size": 128,
+    "num_layers": 2,
+    "max_epochs": 5,
+    "print_steps": 20,
+    "embedding_size": 300,
+    "hidden_size": 300,
+    "dropout": 0.2,
+    "checkpoint": null
+}
