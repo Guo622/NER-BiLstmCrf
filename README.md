@@ -1,4 +1,4 @@
-# 基于BiLstm+Crf 的命名实体识别（FudanNLP/nlp-beginner tast4）
+# 基于BiLstm+Crf 的命名实体识别（FudanNLP/nlp-beginner task4）
 
 数据集：CONLL 2003，https://www.clips.uantwerpen.be/conll2003/ner/
 
